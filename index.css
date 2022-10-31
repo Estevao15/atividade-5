@@ -1,0 +1,145 @@
+ #rodape {
+  background-color: #fff;
+  padding: 15px;
+  font-family: Arial;
+  text-align: center;
+ }
+
+#jogo-do-dinheiro {
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#a-negociacao {
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#a-procura-da-felicidade {
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#o-dia-antes-do-fim {
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#o-poderoso-chefao {
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px; 
+}
+
+#a-grande-aposta {
+  text-align: left;
+  padding-left: 10px;
+  margin-left: 10px; 
+}
+
+.names {
+  margin: 2%;
+     color: rgba(214, 6, 6, 0.644);
+ }
+ 
+ #o-lobo-de-wall-stret {
+    text-align: left;
+    padding-left: 10px;
+    margin-left: 10px;
+  }
+  
+  .vantagens { 
+    color: rgba(241, 22, 22, 0.856);
+    text-decoration: underline; 
+      
+   }
+   
+   
+   h3 {
+      text-align: center;
+      color: black;
+      font-family: Arial;
+      font-size: 25px;
+      
+    }
+
+    p {
+      font-size: 17px;
+      text-align: center;
+      font-family: Arial;
+      
+    }
+
+    .video {
+      margin: 2%;
+     
+      
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #f2f2f2;
+    }
+    .navbar{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 15px;
+      font-family: Arial;
+      
+    }
+    .navbar a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .logo {
+    
+    }
+    .list {
+      list-style: none;
+      display: flex;
+      padding: 20px;
+    }
+    .list a {
+      padding: 10px;
+    }
+    #toggler, label.menu {
+      display: none;
+    }
+    @media screen and (max-width: 600px){
+      .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+      }
+      .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      .navbar label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+      }
+      #toggler:checked ~ .menu {
+        max-height: 100%;
+      }
+
+      label span {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        border-radius: 5px;
+        margin: 3px 0;
+      }
+    }
